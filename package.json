@@ -1,0 +1,22 @@
+{
+  "name": "projeto_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "production": "pm2 start index.js --name appx-backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "pg": "^8.13.0",
+    "pm2": "^5.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
